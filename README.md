@@ -1,11 +1,10 @@
-Component description.
-Supports [theming](https://github.com/omatviiv/omtv-template-react-component#component-theming-approach).
+Theme for react app.
 
-Check component [demo](http://link.to.your/component-demo).
+Check theme [demo](http://link.to.your/component-demo).
 
 # Install
 ```
-npm i your-component-name
+npm i omtv-theme
 ```
 
 # Use
@@ -14,10 +13,10 @@ Show how to use your component
 <MyComponent data={[...]}>Children</MyComponent>
 ```
 
-Component is not bundled or compiled, It is provided in raw form as is
-(see `component/` folder).
-The project that is going to use this component should bundle and
-complie component itself, here are the instructions for webpack and babel:
+Theme is not bundled or compiled, It is provided in raw form as is
+(see `theme/` folder).
+The project that is going to use this theme should bundle and
+complie theme itself, here are the instructions for webpack and babel:
 ```webpack.config.js
 module.exports = {
   ...
@@ -45,7 +44,7 @@ You can also use [omtv-template-react](https://github.com/omatviiv/omtv-template
 for your project, it's webpack/babel config is compatible with this approach.
 
 # Static type checking
-Component contains [Flow Comment Types](https://flow.org/en/docs/types/comments/)
+Theme contains [Flow Comment Types](https://flow.org/en/docs/types/comments/)
 that allows either to use flow static typechecking or simply ignore it.
 
 # Improve
