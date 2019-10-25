@@ -3,7 +3,7 @@ import {
   white, whiteDark, whiteLight, black, blackDark, blue, blueDark,
   red, redDark, cyan, cyanDark, yellow, yellowDark, green, greenDark,
   magenta, magentaDark, ugly,
-} from 'demo/theme/colors';
+} from 'theme/colors';
 
 export default {
   'pre[class*="language-"]': {

@@ -11,6 +11,9 @@
     "publish-demo": "npm run test; npm run build; node ./scripts/publishDemo.js",
     "prepublishOnly": "npm run test; npm run build"
   },
+  "dependencies": {
+    "react-syntax-highlighter": "^11.0.2"
+  },
   "peerDependencies": {
     "react": "^16.9.0",
     "styled-components": "^4.4.0"

@@ -6,8 +6,8 @@ import { Prism } from 'react-syntax-highlighter';
 import type { Node } from 'react';
 */
 
-import syntax from 'demo/theme/prism';
-import { black, whiteLight, red } from 'demo/theme/colors';
+import syntax from 'theme/prism';
+import { black, whiteLight, red } from 'theme/colors';
 
 export const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i,700,700i&display=swap&subset=cyrillic-ext');
@@ -32,17 +32,6 @@ export const GlobalStyle = createGlobalStyle`
   }
 `;
 
-/*::
-type CodeProps = {|
-  children: Node,
-|}
-*/
-export const Code = ({ children }/*: CodeProps*/) => (
-  <Prism language='javascript' style={ syntax }>
-    { children }
-  </Prism>
-);
-
 export const Article = styled.article`
   font-family: 'Ubuntu Mono', Consolas, monospace;
   color: ${ black };
@@ -66,6 +55,17 @@ export const Article = styled.article`
                          'comment   code';
   }
 `;
+
+/*::
+type CodeProps = {|
+  children: Node,
+|}
+*/
+export const Code = ({ children }/*: CodeProps*/) => (
+  <Prism language='javascript' style={ syntax }>
+    { children }
+  </Prism>
+);
 
 export const MainHeader = styled.h1`
   padding: .5rem;
