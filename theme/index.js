@@ -6,8 +6,8 @@ import { Prism } from 'react-syntax-highlighter';
 import type { Node } from 'react';
 */
 
-import syntax from 'theme/prism';
-import { black, whiteLight, red } from 'theme/colors';
+import syntax from './prism';
+import { black, whiteLight, red } from './colors';
 
 export const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i,700,700i&display=swap&subset=cyrillic-ext');

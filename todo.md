@@ -1,11 +1,14 @@
-* publish release so that it can be used in omtv-react-input
 - snapshot test components
-- update docs with specific instructions for a component(s)
 - scp2 lodash vulnerability
   https://github.com/spmjs/node-scp2/issues/116
   https://github.com/spmjs/node-scp2/pull/123
 
-# 0.0.1 - initial component version
+# 3.0.1 - initial component version
++ host theme demo
++ update docs with specific instructions for a component(s)
++ fix imports paths
+
+# 3.0.0 - initial component version
 + make demo page
 + implement theme
 + fix jest issue with import Enzyme
