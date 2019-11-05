@@ -1,7 +1,9 @@
-- snapshot test components
+* snapshot test components
 - scp2 lodash vulnerability
   https://github.com/spmjs/node-scp2/issues/116
   https://github.com/spmjs/node-scp2/pull/123
+
+# 3.0.2 - 
 
 # 3.0.1 - initial component version
 + host theme demo
