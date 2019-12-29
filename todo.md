@@ -3,7 +3,9 @@
   https://github.com/spmjs/node-scp2/issues/116
   https://github.com/spmjs/node-scp2/pull/123
 
-# 4.0.1 - 
+# 4.0.1 - bugfix
++ release
++ bugfix - don't use aliases in non-demo code
 
 # 4.0.0 - reorganize components
 + release

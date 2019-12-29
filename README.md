@@ -15,10 +15,10 @@ import ReactDOM from 'react-dom';
 import {
   GlobalStyle, Button, A,
   H1, H2, H3, H4, H5, H6,
-} from 'theme';
+} from 'omtv-theme';
 import {
   Article, Code, Header, Component, Comment,
-} from 'theme/demoArticle';
+} from 'omtv-theme/theme/demoArticle';
 
 const App = () => (
   <>

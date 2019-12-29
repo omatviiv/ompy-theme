@@ -4,8 +4,8 @@ import { Prism } from 'react-syntax-highlighter';
 import styled from 'styled-components';
 
 import syntax from './prism';
-import { black, whiteLight } from 'theme/colors';
-import { A } from 'theme';
+import { black, whiteLight } from '../colors';
+import { A } from '../';
 /*::
 import type { Node } from 'react';
 */

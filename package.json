@@ -1,6 +1,6 @@
 {
   "name": "omtv-theme",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "theme for react app",
   "main": "theme/index.js",
   "scripts": {
