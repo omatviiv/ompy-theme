@@ -3,6 +3,12 @@
   https://github.com/spmjs/node-scp2/issues/116
   https://github.com/spmjs/node-scp2/pull/123
 
+# 4.0.3 -
+
+# 4.0.2 - make Demo Article Header a bit smaller
++ release
++ make Demo Article Header a bit smaller
+
 # 4.0.1 - bugfix
 + release
 + bugfix - don't use aliases in non-demo code

@@ -34,6 +34,29 @@ export const Article = styled.article`
   }
 `;
 
+const HeaderStl = styled.h3`
+  grid-area: header;
+  padding: .5rem;
+  margin: 0;
+  & > a {
+    text-decoration: none;
+    padding-left: .5rem;
+    cursor: pointer;
+  }
+`;
+
+/*::
+type HeaderProps = {|
+  bookmark?: string,
+  children: Node,
+|}
+*/
+export const Header = ({ bookmark, children }/*: HeaderProps*/) => (
+  <HeaderStl id={ bookmark || '' } >
+    { children }{ bookmark && ( <A href={`#${ bookmark }` }>#</A>) }
+  </HeaderStl>
+);
+
 /*::
 type CodeProps = {|
   children: Node,
@@ -59,26 +82,3 @@ export const Comment = styled.em`
   }
   margin: 0;
 `;
-
-const HeaderH2 = styled.h2`
-  grid-area: header;
-  padding: .5rem;
-  margin: 0;
-  & > a {
-    text-decoration: none;
-    padding-left: .5rem;
-    cursor: pointer;
-  }
-`;
-
-/*::
-type HeaderProps = {|
-  bookmark?: string,
-  children: Node,
-|}
-*/
-export const Header = ({ bookmark, children }/*: HeaderProps*/) => (
-  <HeaderH2 id={ bookmark || '' } >
-    { children }{ bookmark && ( <A href={`#${ bookmark }` }>#</A>) }
-  </HeaderH2>
-);
