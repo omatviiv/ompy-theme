@@ -13,16 +13,22 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import {
-  GlobalStyle, Article, Code, MainHeader, Header, Button,
-  Comment, A, Component,
+  GlobalStyle, Button, A,
+  H1, H2, H3, H4, H5, H6,
 } from 'theme';
+import {
+  Article, Code, Header, Component, Comment,
+} from 'theme/demoArticle';
 
 const App = () => (
   <>
     <GlobalStyle />
-    <MainHeader>
-      App header
-    </MainHeader>
+    <H1>App header</H1>
+    <H2>header2</H2>
+    <H3>header3</H3>
+    <H4>header4</H4>
+    <H5>header5</H5>
+    <H5>header6</H6>
     <Article>
       <Header bookmark='article1'>Article header</Header>
       <Component>
