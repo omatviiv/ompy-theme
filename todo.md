@@ -3,7 +3,11 @@
   https://github.com/spmjs/node-scp2/issues/116
   https://github.com/spmjs/node-scp2/pull/123
 
-# 4.0.0 - 
+# 4.0.1 - 
+
+# 4.0.0 - reorganize components
++ release
++ update docs
 + change webpack dev server port to 9001
 + group components related to Demo Article
 + add header components H2 - H6
