@@ -3,7 +3,10 @@
   https://github.com/spmjs/node-scp2/issues/116
   https://github.com/spmjs/node-scp2/pull/123
 
-# 3.0.2 - 
+# 4.0.0 - 
++ group components related to Demo Article
++ add header components H2 - H6
++ fix vulnerabilities
 
 # 3.0.1 - initial component version
 + host theme demo
