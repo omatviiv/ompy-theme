@@ -4,6 +4,7 @@
   https://github.com/spmjs/node-scp2/pull/123
 
 # 4.0.0 - 
++ change webpack dev server port to 9001
 + group components related to Demo Article
 + add header components H2 - H6
 + fix vulnerabilities
