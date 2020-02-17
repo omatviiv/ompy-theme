@@ -68,7 +68,7 @@ export const Code = ({ children }/*: CodeProps*/) => (
   </Prism>
 );
 
-export const Component = styled.p`
+export const Component = styled.div`
   grid-area: component;
   padding: .5rem;
   margin: 0;

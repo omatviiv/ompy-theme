@@ -1,5 +1,3 @@
-[//]: # (commit staged 'describe scp2 vulnerability')
-[//]: # (stage & commit 'change Component html element p => div')
 [//]: # (release 4.0.3)
 * snapshot test components
 - scp2 lodash vulnerability (not critical because scp2 is only used for
