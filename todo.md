@@ -1,11 +1,15 @@
-[//]: # (release 4.0.3)
+[//]: # (release 4.1.0)
 * snapshot test components
 - scp2 lodash vulnerability (not critical because scp2 is only used for
   deploy script)
   https://github.com/spmjs/node-scp2/issues/116
   https://github.com/spmjs/node-scp2/pull/123
 
-# 4.0.3 -
+# 4.1.1 -
+
+# 4.1.0 - fix p html element issue
++ release 4.1.0
++ support extending components via styled components
 + change Component html element p => div
 
 # 4.0.2 - make Demo Article Header a bit smaller

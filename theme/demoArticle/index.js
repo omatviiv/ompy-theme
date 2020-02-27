@@ -49,22 +49,24 @@ const HeaderStl = styled.h3`
 type HeaderProps = {|
   bookmark?: string,
   children: Node,
+  className?: className,
 |}
 */
-export const Header = ({ bookmark, children }/*: HeaderProps*/) => (
-  <HeaderStl id={ bookmark || '' } >
-    { children }{ bookmark && ( <A href={`#${ bookmark }` }>#</A>) }
+export const Header = ({ bookmark, children, className }/*: HeaderProps*/) => (
+  <HeaderStl id={bookmark || ''} className={className}>
+    {children}{bookmark && ( <A href={`#${ bookmark }`}>#</A>)}
   </HeaderStl>
 );
 
 /*::
 type CodeProps = {|
   children: Node,
+  className?: className,
 |}
 */
-export const Code = ({ children }/*: CodeProps*/) => (
-  <Prism language='javascript' style={ syntax }>
-    { children }
+export const Code = ({ children, className }/*: CodeProps*/) => (
+  <Prism language='javascript' style={syntax} className={className}>
+    {children}
   </Prism>
 );
 
