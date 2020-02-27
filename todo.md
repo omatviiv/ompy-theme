@@ -9,6 +9,8 @@
 
 # 4.1.0 - fix p html element issue
 + release 4.1.0
++ use ...rest instead passing className
+  since rest will include all props (event handlers, etc.) not just className
 + support extending components via styled components
 + change Component html element p => div
 
