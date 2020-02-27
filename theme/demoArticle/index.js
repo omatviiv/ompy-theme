@@ -52,7 +52,7 @@ type HeaderProps = {|
   rest?: any,
 |}
 */
-export const Header = ({ bookmark, children, ...rest }/*: HeaderProps*/) => (
+export const Header = ({ bookmark, children, rest }/*: HeaderProps*/) => (
   <HeaderStl id={bookmark || ''} {...rest}>
     {children}{bookmark && ( <A href={`#${ bookmark }`}>#</A>)}
   </HeaderStl>
@@ -64,7 +64,7 @@ type CodeProps = {|
   rest?: any,
 |}
 */
-export const Code = ({ children, ...rest }/*: CodeProps*/) => (
+export const Code = ({ children, rest }/*: CodeProps*/) => (
   <Prism language='javascript' style={syntax} {...rest}>
     {children}
   </Prism>

@@ -6,6 +6,7 @@
   https://github.com/spmjs/node-scp2/pull/123
 
 # 4.1.1 -
++ fix rest prop
 
 # 4.1.0 - fix p html element issue
 + release 4.1.0
