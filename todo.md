@@ -1,4 +1,4 @@
-[//]: # (release 4.1.0)
+[//]: # ()
 * snapshot test components
 - scp2 lodash vulnerability (not critical because scp2 is only used for
   deploy script)
