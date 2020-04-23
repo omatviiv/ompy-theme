@@ -16,6 +16,7 @@ module.exports = {
       theme: path.resolve(__dirname, 'theme/'),
     },
   },
+  stats: 'errors-warnings',
   module: {
     rules: [
       {
